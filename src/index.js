@@ -72,3 +72,6 @@ function getTotalImgCount() {
 
   Notiflix.Notify.info("We're sorry, but you've reached the end of search results.");
 }
+// открываем большое изображение галереи
+import SimpleLightbox from 'simplelightbox';
+const lightbox = new SimpleLightbox('.gallery a');
